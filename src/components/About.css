@@ -1,0 +1,28 @@
+/* Position of the entire about content */
+.figure-container {
+  text-align: center;
+}
+
+/* Styling for the first store image */
+.shop-img-1 {
+  margin-right: 20px;
+  border-radius: 8px;
+}
+
+/* Styling for the second store image */
+.shop-img-2 {
+  border-radius: 8px;
+}
+
+/* Positional adjustments for the store description */
+.shop-description {
+  margin-left: 200px;
+  margin-right: 200px;
+  font-weight: 700;
+}
+
+/* Contact us position */
+.contact-us {
+  margin: 0;
+  padding: 60px;
+}

@@ -1,0 +1,92 @@
+/* Styles for heading level 2 */
+h2 {
+  text-align: center;
+  padding: 15px;
+}
+
+/* Styles for heading level 3 */
+h3 {
+  text-align: center;
+}
+
+/* Styles for the main container of the shopping cart */
+.cart-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Styles for the row containing product cards */
+.product-cards-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+/* Styles for the row containing a single product */
+.product-cards-row.single-product {
+  justify-content: center;
+}
+
+/* Styles for individual product cards in the cart */
+.cart-product-card {
+  flex: 0 0 calc(30% - 40px);
+  text-align: center;
+  border: 2px solid black;
+  border-radius: 8px;
+  margin: 10px;
+  background-color: white;
+}
+
+/* Styles for images inside product cards */
+.cart-product-card img {
+  max-height: 200px;
+  object-fit: contain;
+  margin-top: 10px;
+}
+
+/* Styles for the body of product cards */
+.product-card .card-body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Styles for the remove button */
+.remove-btn {
+  margin-top: 10px;
+  font-weight: 700;
+  background-color: white;
+  font-size: large;
+  border: none;
+  color: red;
+  cursor: pointer;
+}
+
+/* Media query for responsive design on smaller screens */
+@media (max-width: 960px) {
+  .cart-product-card {
+    flex: 0 0 calc(50% - 20px);
+  }
+}
+
+/* Styles for the shipping information section */
+.shipping-div {
+  margin-top: 20px;
+}
+
+/* Styles for the order button */
+.order-btn {
+  cursor: pointer;
+  margin-top: 25px;
+  font-weight: 500;
+  font-size: larger;
+  background-color: #cffaaf;
+  border-radius: 4px;
+}
+
+/* Styles for the info icon */
+.info-icon {
+  width: 25px;
+  cursor: pointer;
+}

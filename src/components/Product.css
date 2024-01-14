@@ -1,0 +1,45 @@
+/* Positional styling for container containing products */
+.product-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+/* Styling for product card */
+.product-card {
+  flex: 0 0 calc(32% - 20px);
+  margin: 10px;
+  border: 2px solid black;
+  border-radius: 8px;
+  text-align: center;
+  background-color: white;
+}
+
+/* Styling for image in product card */
+.product-card img {
+  max-height: 200px;
+  object-fit: contain;
+  margin-top: 10px;
+}
+
+/* Product title styling */
+.product-title {
+  font-weight: 500;
+}
+
+/* Product price styling */
+.product-price {
+  font-weight: 500;
+}
+
+/* Buy button styling */
+.buy-btn {
+  font-weight: 600;
+  border: 2px solid black;
+  border-radius: 4px;
+  height: 25px;
+  width: 100px;
+  cursor: pointer;
+  background-color: #7facf5;
+}

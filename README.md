@@ -1,70 +1,23 @@
-# Getting Started with Create React App
+# Starting Information
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+The node modules folder has been deleted from the directory for spaces and sync purposes.
 
-## Available Scripts
+To reinstall all necessary dependencies simply run the command **npm install**.
 
-In the project directory, you can run:
+After all necessary dependencies have been installed, enter the **npm start** command into the terminal to launch the application.
 
-### `npm start`
+## About The App
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+This is a simple application to mimic a online web store.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+The navigation bar consists of 4 pages. Home page, Products, About and Cart.
 
-### `npm test`
+It consists of a landing page that the user can choose to either **log in** or **sign up**.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Next is the products page. 10 products have been listed, and can be added to the cart using the **"Add To Cart"** button.
 
-### `npm run build`
+Next is the About page. Holding information about the store with 2 featured pictures. Including a section for contact details by mobile and email.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Lastly is the Cart page. All products added to the cart are displayed on this page. The product card is displayed with a remove button at the bottom of the card. The total price is updated after every action. When a shipping option is selected, the price is also updated.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+When the Order & Pay button is clicked the page refreshes simulating that the order is finished.

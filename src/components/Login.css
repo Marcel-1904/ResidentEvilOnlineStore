@@ -1,0 +1,25 @@
+/* Positional styling for login form */
+.login-form {
+  text-align: center;
+}
+
+/* Styling for labels above input fields */
+label {
+  font-weight: 700;
+}
+
+/* Input field styling */
+input {
+  margin-top: 5px;
+  border-radius: 4px;
+  height: 20px;
+}
+
+/* Styling for login button */
+.login-btn {
+  border-radius: 4px;
+  margin-top: 20px;
+  font-size: medium;
+  font-weight: 600;
+  cursor: pointer;
+}

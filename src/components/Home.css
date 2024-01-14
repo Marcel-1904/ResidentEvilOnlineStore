@@ -1,0 +1,26 @@
+/* Position for welcome header */
+.header {
+  text-align: center;
+}
+
+/* Styling for the logout button */
+.logout-btn {
+  border-radius: 4px;
+  font-size: medium;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+/* Styling for button switching between forms */
+.form-btn {
+  border-radius: 4px;
+  font-size: medium;
+  font-weight: 600;
+  cursor: pointer;
+  margin-top: 30px;
+}
+
+/* Position styling for div that holds the form switch button */
+.form-btn-div {
+  text-align: center;
+}

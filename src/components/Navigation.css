@@ -1,0 +1,34 @@
+/* Position styling or the navigation list */
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+/* Positional styling for the list items */
+li {
+  display: inline;
+}
+
+/* Styling for the links */
+a {
+  text-decoration: none;
+  color: black;
+  font-weight: 600;
+  font-size: large;
+}
+
+/* Special styling for the first 3 links */
+.nav-link {
+  padding-left: 30px;
+}
+
+/* Special styling for the cart link */
+.cart-link {
+  position: fixed;
+  padding-left: 750px;
+}
